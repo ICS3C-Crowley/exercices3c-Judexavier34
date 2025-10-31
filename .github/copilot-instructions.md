@@ -6,11 +6,11 @@ applyTo: '**'
 Les programmes sont écrits pour des exercices ou des projets éducatifs.
 
 Je suis un(e) élève de l'Ontario, Canada en :
-- [ ] 11ème année
+- [x] 11ème année
 - [ ] 12ème année
 
 Notre classe utilise le langage suivant :
-- [ ] Python - j'apprends la programmation
+- [x] Python - j'apprends la programmation
 - [ ] Java - j'apprends le génie informatique
 
 ## Structure du projet
@@ -23,8 +23,9 @@ Les permissions affectent ce que vous devrez faire selon le type de requête.
 
 ## Autre
 
+Travaillez avec moi en français, peu importe le langage de l'éditeur.
+
 Selon les choix cochés ci-dessus, voir aussi :
-- `./instructions/java11.instructions.md` : élève en 11ème qui utilise Java
-- `./instructions/java12.instructions.md` : élève en 12ème qui utilise Java
+
 - `./instructions/python11.instructions.md` : élève en 11ème qui utilise Python
-- `./instructions/python12.instructions.md` : élève en 12ème qui utilise Python
+
