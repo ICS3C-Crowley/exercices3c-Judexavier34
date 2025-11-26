@@ -9,7 +9,7 @@ import traceback
 
 # Jeu "Jump" minimal — joueur saute sur des plateformes
 # Contrôles : ← → pour bouger, ESPACE pour sauter, R pour rejouer, Échap pour quitter.
-
+      
 # --- Configuration ---
 WINDOW_WIDTH, WINDOW_HEIGHT = 800, 600
 FPS = 60
