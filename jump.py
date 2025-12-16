@@ -106,7 +106,7 @@ def draw(screen, player, platforms, elapsed, message=""):
         screen.blit(m, ((WINDOW_WIDTH - m.get_width())//2, 70))
     pygame.display.flip()
 
-def main():
+ def main():
     try:
         player = Player()
         platforms = make_platforms()
