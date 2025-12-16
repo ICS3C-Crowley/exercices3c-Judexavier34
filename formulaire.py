@@ -72,13 +72,13 @@ def score_and_feedback(answers):
             score += 1
     # message motivant selon le score
     if score == 5:
-        msg = "Parfait ! Tu es un(e) champion(ne) 🎉"
+        msg = "Parfait ! Tu es un(e) champion(ne) "
     elif score >= 4:
-        msg = "Super travail ! Continue comme ça 👍"
+        msg = "Super travail ! Continue comme ça "
     elif score >= 2:
-        msg = "Bien joué — tu peux encore t'améliorer 🙂"
+        msg = "Bien joué — tu peux encore t'améliorer "
     else:
-        msg = "Courage — essaie encore, tu vas y arriver 💪"
+        msg = "Courage — essaie encore, tu vas y arriver "
     return score, msg, details
 
 score1, msg1, details1 = score_and_feedback(answers_j1)
@@ -102,11 +102,11 @@ import os
 
 # Déterminer le vainqueur et afficher un message
 if score1 > score2:
-    print(f"\n🏆 {joueur1} a gagné ! Bravo 🎉")
+    print(f"\n {joueur1} a gagné ! Bravo ")
 elif score2 > score1:
-    print(f"\n🏆 {joueur2} a gagné ! Bravo 🎉")
+    print(f"\n {joueur2} a gagné ! Bravo ")
 else:
-    print("\n🤝 Match nul ! Bien joué à tous les deux.")
+    print("\n Match nul ! Bien joué à tous les deux.")
 
 # Sauvegarder les meilleurs scores dans best_scores.json (dans le même dossier)
 best_path = os.path.join(os.path.dirname(__file__), "best_scores.json")
@@ -137,7 +137,7 @@ except Exception as e:
 # Conseils personnalisés selon le score
 for name, sc in ((joueur1, score1), (joueur2, score2)):
     if sc == 5:
-        advice = "Parfait ! Garde cette constance et aide les autres 👏"
+        advice = "Parfait ! Garde cette constance et aide les autres "
     elif sc >= 4:
         advice = "Très bien — révise une ou deux questions pour être imbattable."
     elif sc >= 2:
